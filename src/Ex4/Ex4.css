@@ -1,0 +1,85 @@
+/* ---- Câu 3: Navbar ---- */
+.ex4-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555555;
+}
+
+.ex4-navbar li {
+  float: left;
+}
+
+.ex4-navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.ex4-navbar li a:hover {
+  background-color: #777777;
+}
+
+.ex4-navbar li a.active {
+  background-color: #3ab273;
+}
+
+.ex4-navbar li a.login {
+  background-color: #000000;
+}
+
+/* ---- Câu 1, 4: chữ màu xanh in đậm ---- */
+.ex4-blue {
+  color: blue;
+  font-weight: bold;
+}
+
+/* ---- Câu 2: logo React ---- */
+.ex4-logo {
+  width: 200px;
+}
+
+/* ---- Bố cục chung của trang bài tập ---- */
+.ex4-section {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin: 12px 0;
+}
+
+.ex4-section h3 {
+  margin: 0 0 8px 0;
+  color: #333333;
+}
+
+.ex4-result {
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* ---- Câu 14: khối hiển thị công ty Retail ---- */
+.ex4-company {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.ex4-company p {
+  flex: 1;
+  border: 1px solid #cccccc;
+  padding: 8px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ex4-company p:first-child {
+  flex: 2;
+}
