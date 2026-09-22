@@ -1,0 +1,7 @@
+.simple-card {
+  width: 220px;
+}
+.simple-card .card-img-top {
+  height: 150px;
+  object-fit: cover;
+}

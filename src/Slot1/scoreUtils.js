@@ -11,18 +11,19 @@ export function getNameAndAge(student) {
 
 // Yêu cầu 6: filter - lọc ra những điểm đạt (>= 5)
 export function getPassScores(scores) {
-  return scores.filter(score => score >= 5);
+  return scores.filter(score => score >= 8);
 }
 
 // Yêu cầu 7: Promise - giả lập chấm điểm mất 1 giây
 export function evaluateStudent(avg) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (avg >= 8) {
         resolve('Học sinh giỏi');
       } else {
-        resolve('Cần cố gắng');
+        reject('Cần cố gắng');
       }
+      throw new reject("Loi!")
     }, 1000);
   });
 }

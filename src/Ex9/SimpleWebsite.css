@@ -1,0 +1,27 @@
+.sw-header {
+  background-color: #f0993e;
+  padding: 20px 0;
+}
+.sw-logo {
+  max-width: 300px;
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 4px;
+}
+.sw-nav {
+  margin-top: 15px;
+}
+.sw-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+}
+.sw-nav a:hover {
+  text-decoration: underline;
+}
+.sw-footer {
+  background-color: #f7cd93;
+  padding: 20px 0;
+  color: white;
+}

@@ -24,6 +24,10 @@ class Student extends Person {
     this.scores = [...this.scores, ...newScores];
   }
 
+  createScores(...newScores){
+    this.scores = [...this.scores, ...newScores]
+  }
+
   // Yêu cầu 2: hiển thị đầy đủ thông tin (ghi đè introduce của cha)
   introduce() {
     return `${super.introduce()} Tôi là học sinh.
